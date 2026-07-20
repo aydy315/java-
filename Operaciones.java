@@ -1,12 +1,35 @@
-package c05.p05;
+
+package c05.p07;
 
 class Operaciones {
-    public void concatenarTexto(String texto1, String texto2) {
-        System.out.println(texto1 + " " + texto2);
-    } // Fin del método concatenarTexto
 
-    public void imprimirSuma(int entero1, int entero2) {
-        int suma = entero1 + entero2;
-        System.out.println("Suma: " + suma);
-    } // Fin del método imprimirSuma
+    public void mostrarDatos(int numero) {
+
+        System.out.println("Parámetros: int");
+
+    } // Fin del método mostrarDatos
+
+    public void mostrarDatos(String texto) {
+
+        System.out.println(
+                "Parámetros: String");
+
+    } // Fin del método mostrarDatos
+
+    public void mostrarDatos(int numero,
+            String texto) {
+
+        System.out.println(
+                "Parámetros: int, String");
+
+    } // Fin del método mostrarDatos
+
+    public void mostrarDatos(String texto,
+            int numero) {
+
+        System.out.println(
+                "Parámetros: String, int");
+
+    } // Fin del método mostrarDatos
+
 } // Fin de la clase Operaciones
