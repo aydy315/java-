@@ -1,13 +1,15 @@
-package c06.p09;
+package c06.p10;
 
 public class Acciones {
 
-    public static void imprimeIncremento(int valor) {
+    public static void imprimeCambioDeEdad(
+            Persona persona) {
 
-        valor = valor + 10;
+        persona.edad = persona.edad + 10;
 
-        System.out.println("Valor: " + valor);
+        System.out.println(
+                "Edad: " + persona.edad);
 
-    } // Fin del método imprimeIncremento
+    } // Fin del método imprimeCambioDeEdad
 
 } // Fin de la clase Acciones
