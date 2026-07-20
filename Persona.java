@@ -1,7 +1,7 @@
-
-package c05.p02;
+package c05.p03;
 
 class Persona {
+
     String nombre;
     String apellidoPaterno;
     String apellidoMaterno;
@@ -14,6 +14,6 @@ class Persona {
         System.out.println("Ap. Materno: " + apellidoMaterno);
         System.out.println("Edad: " + edad);
         System.out.println("Peso: " + peso);
-    } // Fin del método imprimirCampos
+    }
 
-} // Fin de la clase Personac05.p02
+}
