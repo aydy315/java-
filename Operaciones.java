@@ -1,35 +1,17 @@
+package c06.p08;
 
-package c05.p07;
+public class Operaciones {
 
-class Operaciones {
+    public static int sumar(int numero1, int numero2) {
 
-    public void mostrarDatos(int numero) {
+        return numero1 + numero2;
 
-        System.out.println("Parámetros: int");
+    }
 
-    } // Fin del método mostrarDatos
+    public static int restar(int numero1, int numero2) {
 
-    public void mostrarDatos(String texto) {
+        return numero1 - numero2;
 
-        System.out.println(
-                "Parámetros: String");
+    }
 
-    } // Fin del método mostrarDatos
-
-    public void mostrarDatos(int numero,
-            String texto) {
-
-        System.out.println(
-                "Parámetros: int, String");
-
-    } // Fin del método mostrarDatos
-
-    public void mostrarDatos(String texto,
-            int numero) {
-
-        System.out.println(
-                "Parámetros: String, int");
-
-    } // Fin del método mostrarDatos
-
-} // Fin de la clase Operaciones
+}
