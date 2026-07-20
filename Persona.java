@@ -1,5 +1,5 @@
 
-package c05.p01;
+package c05.p02;
 
 class Persona {
     String nombre;
@@ -7,4 +7,13 @@ class Persona {
     String apellidoMaterno;
     int edad;
     int peso;
-} // Fin de la clase Persona
+
+    public void imprimirCampos() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Ap. Paterno: " + apellidoPaterno);
+        System.out.println("Ap. Materno: " + apellidoMaterno);
+        System.out.println("Edad: " + edad);
+        System.out.println("Peso: " + peso);
+    } // Fin del método imprimirCampos
+
+} // Fin de la clase Personac05.p02
