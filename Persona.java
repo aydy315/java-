@@ -1,14 +1,14 @@
-package c06.p03;
+package c06.p04;
 
 class Persona {
 
     private String nombre;
     private int edad;
 
-    public Persona() {
+    public Persona(String pNombre, int pEdad) {
 
-        nombre = "(Sin nombre)";
-        edad = 0;
+        nombre = pNombre;
+        edad = pEdad;
 
     } // Fin del constructor
 
