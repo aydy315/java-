@@ -1,4 +1,4 @@
-package c07.p01;
+package c07.p02;
 
 public class PruebaCliente {
 
@@ -6,10 +6,10 @@ public class PruebaCliente {
 
         Cliente cliente1 = new Cliente();
 
-        cliente1.setNombre("Alberto");
-        cliente1.setApellidoPaterno("Arenas");
-        cliente1.setApellidoMaterno("Aguirre");
-        cliente1.setNumeroCliente(1001);
+        cliente1.setNombre("Carlos");
+        cliente1.setApellidoPaterno("Cadena");
+        cliente1.setApellidoMaterno("Castillo");
+        cliente1.setNumeroCliente(2001);
 
         cliente1.imprimirCampos();
 
