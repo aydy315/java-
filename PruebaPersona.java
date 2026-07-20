@@ -1,4 +1,4 @@
-package c06.p01;
+package c06.p02;
 
 class PruebaPersona {
 
@@ -6,10 +6,11 @@ class PruebaPersona {
 
         Persona persona = new Persona();
 
-        persona.imprimirCampos();
+        System.out.println(persona.getNombre());
+        System.out.println(persona.getEdad());
 
-        persona.nombre = "Alex";
-        persona.edad = 20;
+        persona.setNombre("Alex");
+        persona.setEdad(20);
 
         persona.imprimirCampos();
 
