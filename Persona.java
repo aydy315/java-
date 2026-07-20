@@ -1,9 +1,16 @@
-package c06.p02;
+package c06.p03;
 
 class Persona {
 
     private String nombre;
     private int edad;
+
+    public Persona() {
+
+        nombre = "(Sin nombre)";
+        edad = 0;
+
+    } // Fin del constructor
 
     public void imprimirCampos() {
 
