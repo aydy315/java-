@@ -1,16 +1,18 @@
 package c07.p01;
 
-public class Persona {
+public class Cliente {
 
     private String nombre;
     private String apellidoPaterno;
     private String apellidoMaterno;
+    private int numeroCliente;
 
-    public Persona() {
+    public Cliente() {
 
         nombre = "";
         apellidoPaterno = "";
         apellidoMaterno = "";
+        numeroCliente = 0;
 
     } // Fin del constructor
 
@@ -52,15 +54,30 @@ public class Persona {
 
     } // Fin del método setApellidoMaterno
 
+    public int getNumeroCliente() {
+
+        return numeroCliente;
+
+    } // Fin del método getNumeroCliente
+
+    public void setNumeroCliente(
+            int pNumeroCliente) {
+
+        numeroCliente = pNumeroCliente;
+
+    } // Fin del método setNumeroCliente
+
     public void imprimirCampos() {
 
-        System.out.println("Nombre: "
-                + nombre);
-        System.out.println("Apellido paterno: "
-                + apellidoPaterno);
-        System.out.println("Apellido materno: "
-                + apellidoMaterno);
+        System.out.println("Cliente:"
+                + "\nNombre = " + nombre
+                + "\nApellido paterno = "
+                + apellidoPaterno
+                + "\nApellido materno = "
+                + apellidoMaterno
+                + "\nNúmero de cliente = "
+                + numeroCliente);
 
     } // Fin del método imprimirCampos
 
-} // Fin de la clase Persona
+} // Fin de la clase Cliente
